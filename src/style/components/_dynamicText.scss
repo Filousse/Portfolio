@@ -1,0 +1,47 @@
+.dynamic-text {
+  position: relative;
+  display: flex;
+
+  .simply {
+    color: $color-4;
+    font-size: 1.5ch;
+  }
+
+  #text-target {
+    color: $color-3;
+    font-size: 1.5ch;
+    display: flex;
+    width: 200px;
+    text-align: left;
+    animation: color 90s alternate infinite;
+    perspective: 200px;
+    transform: translateX(2px);
+  }
+  .word {
+    position: absolute;
+  }
+  @keyframes color {
+    0% {
+      color: $color-2;
+    }
+    50% {
+      color: $color-2;
+    }
+    100% {
+      color: $red;
+    }
+  }
+  .letter {
+    transform: translateZ(200px);
+  }
+  @keyframes anim {
+    25% {
+      transform: translateZ(0px);
+      opacity: 1;
+    }
+    32% {
+      opacity: 0;
+      transform: translateZ(-280px) translateX(200px);
+    }
+  }
+}
