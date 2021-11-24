@@ -4,7 +4,6 @@ import ButtonsBottom from "../components/ButtonsBottom";
 import ContactForm from "../components/ContactForm";
 import SocialNetwork from "../components/SocialNetwork";
 import Logo from "../components/Logo";
-import { CopyToClipboard } from "react-copy-to-clipboard";
 import Mouse from "../components/Mouse";
 import { motion } from "framer-motion";
 

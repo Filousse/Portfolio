@@ -10,6 +10,11 @@
   &:hover .sb-main {
     pointer-events: auto;
   }
+  @media screen and (max-width: 430px){
+    transform: rotateX(0deg) scaleY(1);
+    bottom: 13rem;
+    
+  }
 
   .sb-main {
     display: grid;
@@ -30,7 +35,7 @@
     .left,
     .right {
       @media screen and (max-width: 430px){
-        transform: scale(2);
+        transform: scale(1);
       }
     }
     .left {
@@ -38,9 +43,8 @@
     }
     p {
       grid-area: b;
-
       @media screen and (max-width: 430px){
-        display: none;
+        font-size: 1.5rem;
       }
     }
 
@@ -61,3 +65,4 @@
     }
   }
 }
+
