@@ -268,24 +268,14 @@
   }
   .random-circle {
     position: absolute;
+    bottom: -480px;
+    right: 0px;
     height: 400px;
     width: 400px;
     background: $color-3;
     border-radius: 50%;
     z-index: -1;
-    animation: circleAnim 16s infinite alternate;
-
-    @keyframes circleAnim {
-      50% {
-        transform: scale(0.7);
-      }
-      100% {
-        transform: scale(1);
-      }
-    }
     
-    @media screen and (max-width: 630px){
-      display: none;
-    }
+
   }
 }

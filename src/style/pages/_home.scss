@@ -13,7 +13,7 @@
     bottom: -480px;
     right: 0px;
     z-index: -2;
-    animation: homeAnim 35s infinite alternate;
+    animation: homeAnim 10s infinite alternate;
 
     @media screen and (max-width: 650px) {
       height: 400px;
@@ -78,7 +78,7 @@
           top: -40px;
           left: -180px;
           z-index: -1;
-          animation: h1Anim 1.5s forwards ease;
+          animation: h1Anim 1s forwards ease;
           transform: scale(0);
 
           @media screen and (max-width: 850px) {
